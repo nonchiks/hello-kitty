@@ -1,0 +1,118 @@
+body {
+   background: #222222;
+   color: white;
+}
+
+.form {
+   background: #222222;
+   width: 70%;
+   margin: 50px auto; 
+   box-shadow: 0 0 20px black;
+   height: 600px;
+}
+
+
+.btn-back {
+   position: absolute;
+   left: 0;
+   top: 0;
+   font-size:40px;
+   text-decoration: none;
+   color: black;
+   font-weight: 800;
+   background: #ffffff;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+}
+
+.form-head {
+   position: relative;
+}
+
+
+legend {
+   text-align: left;
+   color: white;
+}
+
+.form-title {
+   background: #65daff;
+   height: 50px;
+   color: white;
+   font-size: 30px;
+   margin: 0;
+   text-align: center;
+}
+
+.form-body {
+   background: #222222;
+}
+
+.content-fullname {
+   margin:20px 5px;
+   height: 100px;
+}
+
+
+.fullname {
+   background: none;
+   border-bottom: 1px solid white;
+   border-right: none;
+   width: 100%;
+}
+
+.form-name {
+   margin: 15px 0;
+}
+
+.fullname::placeholder {
+   font-size: 15px;
+}
+
+.form-female {
+   margin-left: 25px;
+   margin-bottom: 15px;
+}
+
+.label-female {
+   margin-right: 93%;
+}
+
+.gender-title {
+   margin-left: 5px;
+}
+
+.discipline {
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 15px;
+}
+
+
+.comment {
+   display: block;
+   background: #222222;
+   width: 99%;
+   height: 170px;
+   border: 1px solid white;
+   margin-left: 6px;
+   margin-bottom: 30px;
+}
+
+.submit {
+   margin: 15px 45%;
+   height: 50px;
+   width: 200px;
+   background: #65daff;
+   color: white;
+   border: 0;
+   border-radius: 5px;
+}
+
+
+.comment::placeholder {
+   color: rgb(0, 0, 0);
+}
+
+

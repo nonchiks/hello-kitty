@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="form.css">
+   <title>FORM</title>
+</head>
+
+<body>
+   <form class="form">
+      <div class="form-head">
+         <a href="index.html" class="btn-back">&lt;</a>
+         <h3 class="form-title">Заявка на вступление</h3>
+      </div>
+      <div class="form-body">
+         <fieldset class="content-fullname">
+            <legend>Ваш никнейм в реал лайф :)</legend>
+            <input type="text" class="form-name fullname" placeholder="Имя" name="name">
+            <input type="text" class="form-sub-name fullname" placeholder="Фамилия" name="sub-name">
+         </fieldset>
+         <div class="gender-content">
+            <p class="gender-title">Ваш пол</p>
+            <input type="radio" value="male" name="gender" class="form-male" id="form-male">
+            <label for="form-male" class="label-male">М</label>
+            <input type="radio" value="female" name="gender" class="form-female" id="form-female">
+            <label for="form-female" class="label-female">Ж</label>
+         </div>
+         <div class="age-content">
+            <input type="checkbox" value="age18" name="age" class="form-age">
+            <label for="form-age" id="" class="age-verify">18 Мне Уже</label>
+         </div>
+         <div class="discipline-content">
+            <label for="">ваша дисциплина:</label>
+            <select name="discipline" id="discipline" class="discipline">
+               <option>CS:GO</option>
+               <option>Dota 2</option>
+               <option>Apex Legends</option>
+            </select>
+         </div>
+         <textarea name="info" placeholder="Дополнительная информация" class="comment"></textarea>
+         <button class="submit">Отправить Заявку</button>
+      </div>
+   </form>
+</body>
+
+</html>
